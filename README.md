@@ -1,6 +1,3 @@
-https://github.com/YanGb13
-
-
 # Agrinho 2026 - Uso Consciente da Água na Agricultura
 
 ## Tema
