@@ -3,76 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Água no Campo - Agro Forte e Sustentável</title>
+    <title>Água Inteligente • Agrinho 2026</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>🌾 Agro Forte, Futuro Sustentável</h1>
-        <h2>Uso Consciente da Água na Agricultura</h2>
+        <div class="header-overlay">
+            <h1>🌍 AGRO FORTE</h1>
+            <h2>Água Inteligente: Cultivando o Futuro Sustentável</h2>
+            <p class="subtitle">Equilíbrio entre produção e preservação do recurso mais precioso</p>
+        </div>
     </header>
 
     <nav>
         <a href="#introducao">Introdução</a>
-        <a href="#problema">O Problema</a>
-        <a href="#solucao">Soluções</a>
-        <a href="#calculadora">Calculadora</a>
+        <a href="#problema">O Desafio</a>
+        <a href="#solucao">Tecnologias do Futuro</a>
+        <a href="#calculadora">Simulador Inteligente</a>
         <a href="#conclusao">Conclusão</a>
     </nav>
 
     <section id="introducao">
         <h2>Introdução</h2>
-        <p>A agricultura é responsável por cerca de 70% do consumo de água doce no mundo. Com o crescimento populacional e as mudanças climáticas, é essencial adotar práticas que equilibrem a produção de alimentos com a preservação dos recursos hídricos.</p>
+        <p>A agricultura consome cerca de 70% da água doce disponível no planeta. Diante das mudanças climáticas e do crescimento populacional, o uso inteligente da água tornou-se essencial para manter uma produção forte e um futuro sustentável.</p>
     </section>
 
     <section id="problema">
-        <h2>O Problema</h2>
-        <p>Muitos produtores ainda utilizam irrigação por inundação, que desperdiça muita água. A escassez hídrica já afeta diversas regiões do Brasil, comprometendo tanto a produção quanto o meio ambiente.</p>
+        <h2>O Desafio Atual</h2>
+        <p>Muitos sistemas de irrigação ainda são ineficientes, desperdiçando até 60% da água. No Brasil, regiões como o Nordeste e o Centro-Oeste já enfrentam períodos de seca mais intensos, ameaçando a segurança alimentar e o equilíbrio ambiental.</p>
     </section>
 
     <section id="solucao">
-        <h2>Soluções Sustentáveis</h2>
-        <ul>
-            <li>Irrigação por gotejamento ou pivô central</li>
-            <li>Monitoramento do solo com sensores</li>
-            <li>Plantio em horários adequados</li>
-            <li>Uso de cobertura morta para reduzir evaporação</li>
-            <li>Captação de água da chuva</li>
-        </ul>
+        <h2>Tecnologias do Futuro</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Irrigação por Gotejamento</h3>
+                <p>Economia de até 70% de água com entrega precisa diretamente na raiz.</p>
+            </div>
+            <div class="card">
+                <h3>Sensores IoT</h3>
+                <p>Monitoramento em tempo real da umidade do solo e clima.</p>
+            </div>
+            <div class="card">
+                <h3>Inteligência Artificial</h3>
+                <p>Previsão de necessidades hídricas e automação das irrigações.</p>
+            </div>
+            <div class="card">
+                <h3>Captação de Água da Chuva</h3>
+                <p>Sistemas modernos de armazenamento e reutilização.</p>
+            </div>
+        </div>
     </section>
 
     <section id="calculadora">
-        <h2>Calculadora de Economia de Água</h2>
-        <p>Descubra quanto você pode economizar!</p>
+        <h2>Simulador Inteligente de Economia</h2>
+        <p>Descubra o impacto real da tecnologia na sua propriedade</p>
         
-        <label>Área plantada (em hectares):</label>
-        <input type="number" id="area" value="10" min="1">
+        <label>Área cultivada (hectares):</label>
+        <input type="number" id="area" value="50" min="1">
         
-        <label>Tipo de irrigação atual:</label>
+        <label>Sistema atual de irrigação:</label>
         <select id="irrigacao">
-            <option value="1.0">Inundação (100% uso)</option>
-            <option value="0.6">Aspersão</option>
-            <option value="0.3">Gotejamento (melhor opção)</option>
+            <option value="1.0">Inundação (tradicional)</option>
+            <option value="0.65">Aspersão Convencional</option>
+            <option value="0.35">Gotejamento + Sensores (Avançado)</option>
         </select>
         
-        <button onclick="calcularEconomia()">Calcular Economia</button>
+        <button onclick="calcularEconomia()">Simular Economia</button>
         
         <div id="resultado"></div>
     </section>
 
     <section id="conclusao">
         <h2>Conclusão</h2>
-        <p>O uso consciente da água não diminui a produção — pelo contrário, torna a agricultura mais eficiente e sustentável para as próximas gerações.</p>
+        <p>Adotar tecnologias inteligentes de gestão hídrica não é apenas uma escolha ambiental — é uma estratégia inteligente para uma agricultura mais produtiva, resiliente e preparada para o futuro.</p>
     </section>
 
     <section id="referencias">
         <h2>Referências</h2>
-        <p>FAO - Organização das Nações Unidas para a Alimentação e Agricultura<br>
-        Embrapa - Empresa Brasileira de Pesquisa Agropecuária</p>
+        <p>Embrapa • FAO • Ministério da Agricultura • ONU Água</p>
     </section>
 
     <footer>
-        <p>Projeto desenvolvido para o Agrinho 2026</p>
+        <p>Projeto Agrinho 2026 • Uso Consciente da Água na Agricultura</p>
     </footer>
 
     <script src="script.js"></script>
