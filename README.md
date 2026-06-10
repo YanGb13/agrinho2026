@@ -1,4 +1,4 @@
-# Agrinho 2026 - Uso Consciente da Água na Agricultura
+# Agrinho 2026 - Água Inteligente: Cultivando o Futuro Sustentável
 
 ## Tema
 Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente.
